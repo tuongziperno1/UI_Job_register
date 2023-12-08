@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng ký công việc</title>
+  <!-- Đường link tới Bootstrap CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Thêm thư viện Font Awesome để sử dụng icon -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="img/">
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-2">
+              <!-- Logo -->
+              <div class="logo">
+                YourLogo
+              </div>
+            </div>
+            <div class="col-md-6  d-flex  justify-content-around">
+              <!-- Menu điều hướng -->
+              <nav>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">The J Works' merit</a>
+                <a href="#">Workflow</a>
+              </nav>
+            </div>
+            <div class="col-md-4 d-flex">
+              <!-- Nút và chuyển đổi ngôn ngữ -->
+              <button class="btn btn-primary bg-danger text-white" style="border: none !important;">PRE REGISTER</button>
+              <div class="language-switch d-flex" style="align-items: center;">
+                <img src="img/co.png" alt="" width="30px" height="20px">
+                <select class="form-control" style="background-color: #333 !important; color:white !important; border:none !important">
+                    <option value="vn">Vietnamese</option>
+                    <option value="en">English</option>
+                  <!-- Thêm các ngôn ngữ khác tại đây -->
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+<div class="container mt-4 " style="padding-bottom: 2%; ">
+  <div class="row ">
+    <div class="col-md-5 offset-md-3" style="margin: 0 auto; border:1px solid rgb(0, 0, 0, 0.1); padding:2%; background-color: #f8f8f8;" >
+      <h4 style="color: red;display: flex; justify-content: center; padding-bottom:3%">Let’s prepare your job searching</h4>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text text-danger"><i class="fas fa-user"></i></span>
+              </div>
+              <input type="text" class="form-control" id="firstName" placeholder="First name">
+            </div>
+          </div>
+          <div class="form-group col-md-6">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text text-danger"><i class="fas fa-user"></i></span>
+              </div>
+              <input type="text" class="form-control" id="lastName" placeholder="Last name">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+         <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text text-danger"><i class="fa fa-map-marker"></i></span>
+            </div>
+            <input type="text" class="form-control" id="country" placeholder="Your country">
+          </div>
+        </div>
+        <div class="form-group">
+         <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text text-danger"><i class="fas fa-phone"></i></span>
+            </div>
+            <input type="tel" class="form-control" id="phone" placeholder="Phone number">
+          </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text text-danger"><i class="fa fa-venus-mars"></i></span>
+                </div>
+                <select class="form-control">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group col-md-6">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text text-danger"><i class="fa fa-calendar"></i></span>
+                </div>
+                <input type="text" class="form-control" id="Age" placeholder="Age">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="form-group">
+            <div class="input-group">
+               <div class="input-group-prepend">
+                 <span class="input-group-text text-danger"><i class="fa fa-comment"></i></span>
+               </div>
+               <select class="form-control">
+                    <option value="jp">Japanese Level</option>
+                    <option value="el">English Level</option>
+                </select>
+             </div>
+           </div>
+           
+           <div class="form-group">
+            <div class="input-group">
+               <div class="input-group-prepend">
+                 <span class="input-group-text text-danger"><i class="fa fa-comment"></i></span>
+               </div>
+               <select class="form-control">
+                    <option value="el">English Level</option>
+                    <option value="jp">Japanese Level</option>
+                </select>
+             </div>
+           </div>
+           <i class=""></i>
+           <div class="form-group">
+            <div class="input-group">
+               <div class="input-group-prepend">
+                 <span class="input-group-text text-danger"><i class="fa fa-star"></i></span>
+               </div>
+               <input type="text" class="form-control" id="favorite" placeholder="Favorite Job">
+             </div>
+           </div>
+
+           <div class="form-group">
+            <div class="input-group">
+               <div class="input-group-prepend">
+                 <span class="input-group-text text-danger"><i class="fa fa-map-marker"></i></span>
+               </div>
+               <select class="form-control">
+                    <option value="place">Woking Place</option>
+                    <option value="hcm">HCM city</option>
+                </select>
+             </div>
+           </div>
+
+        <button type="submit" class="btn btn-primary btn-block bg-danger text-white text-uppercase border-0" >Finish pre Registration</button>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- position: fixed; bottom: 0;width:100%; -->
+<footer style="">
+    <div class="container d-flex" >
+      <!-- Logo đầu tiên -->
+      <div class="logo col-md-3">
+        YourLogo
+      </div>
+      <!-- Các nhóm phần tử -->
+      <div class="footer-group col-md-9">
+        <!-- Nhóm phần tử 1 -->
+        <div class="footer-item d-flex" >
+          <i class="fas fa-home" style="color: red;"></i> 
+          <div style="padding-left: 15px;  font-size: 13px">
+            Global Street 5004, Newyork, </br> United States.
+          </div>
+        </div>
+        <!-- Nhóm phần tử 2 -->
+        <div class="footer-item d-flex" >
+          <i class="fas fa-phone" style="color: red;"></i> 
+          <div style="padding-left: 15px; font-size: 13px">
+            Office & Factory: </br> +0 625-07520-6644 & 6655
+          </div>
+        </div>
+        <!-- Nhóm phần tử 3 -->
+        <div class="footer-item d-flex">
+          <i class="fas fa-envelope" style="color: red;"></i>
+           <div style="padding-left: 15px;  font-size: 13px">
+            Email Support: </br> support@theiworks.com
+          </div>
+        </div>
+        <!-- Thêm nhóm phần tử khác tại đây -->
+      </div>
+    </div>
+    <div class="footer" style="background-color: #27293d; color: white; padding:8px ; font-size: 13px;">
+        <div class="text-center">&copy; 2023 Tuong Website. All Rights Reserved.</div>
+       
+    </div>
+  </footer>
+  
+
+<!-- Đường link tới Bootstrap JS và thư viện Font Awesome -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>
